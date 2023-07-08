@@ -45,25 +45,31 @@ nav button{
 }
 .langauge-btn{
     display: inline;
-    background: transparent;
-    border: 0.05rem solid white;
-    /* padding-top: 7.2px;
-    padding-bottom: 10px; */
-    padding: 7.2px 15.6px;
-    padding-top: 3px;
+    background: rgba(27, 27, 27, 0.7);
+    border: 0.05rem solid rgba(255, 255, 255, 0.3);
+    padding: 7.2px 15px;
+    padding-right: 12px;
+    padding-top: 5px;
     font-size: 1rem;
-    margin-left: 40px;
+    box-sizing: border-box;
+    margin: 4px;
+    margin-right: 11.6px;
+    padding-left: 12px;
 }
 .logo2{
-    width: 12px;
+    width: 11px;
     display: inline-flex;
     align-items: center;
-    padding-top: 7px;
+    margin-left: 10px;
+    transform: scale(0.7);
 }
 .logo3{
     width: 12px;
     filter: invert(100%);
     display: inline-flex;
     align-items: center;
-    padding-top: 4px;
+    outline: 2px solid transparent;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3); 
+    margin-right: 7px;
+    transform: scale(1.35);
 }
