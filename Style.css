@@ -73,3 +73,44 @@ nav button{
     margin-right: 7px;
     transform: scale(1.35);
 }
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 50px;
+}
+.header-content h2{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: white;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: red;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    padding: 15px 30px;
+}
