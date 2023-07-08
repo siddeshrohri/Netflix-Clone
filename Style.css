@@ -14,7 +14,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(header-image.png);
     background-size: cover;
     background-position: center;
-    padding: 13px 11.5%;
+    padding: 13px 11.47%;
     position: relative;
 }
 nav{
@@ -24,8 +24,23 @@ nav{
     padding: 10px 0;
 }
 .logo{
-    width: 150px;
+    width: 148px;
     cursor: pointer;
-    filter: contrast(130%)
-    
+    filter: contrast(150%);
+    margin-left: 0.5px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7.2px 15.6px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 17.5px;
+    margin-left: 10.4px;
+    padding-bottom: 8px;
+
 }
