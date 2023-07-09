@@ -6,14 +6,15 @@
 }
 body{
     background: black;
-    color: white;
+    color:
+    white;
 }
 .header{
     width: 100%;
-    height: 100vh;
+    height: 92vh;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(background.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     padding: 13px 11.47%;
     position: relative;
 }
@@ -88,7 +89,7 @@ nav button{
     max-width: 750px;
     white-space: nowrap;
     margin-right: 270px;
-    margin-top: 9.5px;
+    margin-top: 70px;
 }
 .header-content h3{
     font-weight: 400;
@@ -145,27 +146,17 @@ nav button{
     filter: invert(100%);
     margin-bottom: -1px;
     margin-left: -4px;
-} 
-/* .email-signup{
-    background: white;
-    display: flex;
-    border-radius: 4px;
-    align-items: center;
-    margin-top: 30px;
-    overflow: hidden;
 }
-.email-signup input{
-    flex: 1;
-    border: 0;
-    outline: 0;
-    margin-left: 20px;
-}
-.email-signup button{
-    background: red;
-    outline: 0;
-    border: 0;
-    font-size: 16px;
-    cursor: pointer;
-    color: white;
-    padding: 15px 30px;
-} */
+hr {
+    border: none;
+    border-top: 8px solid rgba(53, 50, 50, 0.7);
+    margin: 0;
+    padding: 0;
+  }
+
+.Bottom-line {
+    position: fixed;
+    bottom: 7%;
+    left: 0;
+    width: 100%;
+  }
