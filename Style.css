@@ -229,3 +229,17 @@ hr {
     left: 0;
     width: 100%;
 }
+.Bottom-line4 {
+    position: absolute;
+    bottom: -293%;
+    left: 0;
+    width: 100%;
+}
+.row3{
+    margin-top: 85px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
