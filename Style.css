@@ -42,7 +42,11 @@ nav button{
     cursor: pointer;
     margin-right: 3px;
     margin-left: 10.4px;
-    padding-bottom: 8px;
+    padding-bottom: 8px;  
+    transition: background-color 0.3s ease;
+}
+nav button:hover{
+    background-color: rgb(243, 47, 47, 0.5);
 }
 .langauge-btn{
     display: inline;
@@ -56,6 +60,10 @@ nav button{
     margin: 4px;
     margin-right: 9px;
     padding-left: 12px;
+    transition: background-color 0.3s ease;
+}
+.langauge-btn:hover{
+    background-color: rgba(0,0,0,0.3);
 }
 .logo2{
     width: 11px;
@@ -140,12 +148,16 @@ nav button{
     margin: 0;
     margin-left: 4px;
     margin-right: 21px;
+    transition: background-color 0.3s ease;
 }
 .started{
     width: 18px;
     filter: invert(100%);
     margin-bottom: -1px;
     margin-left: -4px;
+}
+.email-signup button:hover{
+    background-color: rgb(243, 47, 47, 0.5);
 }
 hr {
     border: none;
