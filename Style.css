@@ -12,7 +12,7 @@ body{
 .header{
     width: 100%;
     height: 92vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.3), rgba(0,0,0,1)), url(background.jpg);
     background-size: cover;
     background-position: center bottom;
     padding: 13px 11.47%;
@@ -28,7 +28,7 @@ nav{
     width: 148px;
     cursor: pointer;
     filter: contrast(120%);
-    margin-left: 0.5px;
+    margin-left: 2px;
 }
 nav button{
     border: 0;
@@ -40,7 +40,7 @@ nav button{
     margin-left: 10px;
     border-radius: 4px;
     cursor: pointer;
-    margin-right: 17.5px;
+    margin-right: 3px;
     margin-left: 10.4px;
     padding-bottom: 8px;
 }
@@ -88,19 +88,19 @@ nav button{
     font-weight: 1000;
     max-width: 750px;
     white-space: nowrap;
-    margin-right: 270px;
+    margin-right: 254px;
     margin-top: 70px;
 }
 .header-content h3{
     font-weight: 400;
     font-size: 24px;
-    margin-right: 16.5px;
+    margin-right: 2px;
     margin-top: 14px;
 }
 .header-content p{
     font-weight: 400;
     font-size: 20px;
-    margin-right: 16.5px;
+    margin-right: 2px;
     margin-top: 27.5px;
 }
 .email-signup input[type="email"] {
@@ -115,7 +115,7 @@ nav button{
     font-size: 20px;
     padding-bottom: 16px;
     box-sizing: border-box;
-    margin-left: 1.5px;
+    margin-left: 14px;
     padding-right: 116px;
 }
 .email-signup button{
@@ -138,7 +138,7 @@ nav button{
     padding-right: 30px;
     padding-left: 24px;
     margin: 0;
-    margin-left: 3.5px;
+    margin-left: 4px;
     margin-right: 21px;
 }
 .started{
@@ -157,6 +157,47 @@ hr {
 .Bottom-line {
     position: absolute;
     bottom: 0%;
+    left: 0;
+    width: 100%;
+  }
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 48px;
+    font-weight: 1000;
+    margin-bottom: 17px;
+    margin-top: -34px;
+    margin-left: -5px;
+}
+.features p{
+    font-size: 24px;
+    margin-left: -5px;
+}
+.Bottom-line1 {
+    position: absolute;
+    bottom: -67%;
     left: 0;
     width: 100%;
   }
