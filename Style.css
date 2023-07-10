@@ -293,7 +293,8 @@ input[type="radio"]{
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
+    transition: max-height 0.5s ease, padding 0.5s;
+    position: relative;
 }
 .accordion input[type="radio"]:checked + label + .content{
     max-height: 600px;
