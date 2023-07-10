@@ -215,3 +215,17 @@ hr {
     flex-wrap: wrap;
     padding: 50px 0;
 }
+.row2{
+    margin-top: 85px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.Bottom-line3 {
+    position: absolute;
+    bottom: -218%;
+    left: 0;
+    width: 100%;
+}
