@@ -125,6 +125,10 @@ nav button:hover{
     box-sizing: border-box;
     margin-left: 14px;
     padding-right: 116px;
+    transition: background-color 0.3s ease;
+}
+.email-signup input[type="email"]:hover{
+    background-color: rgba(0,0,0,0);
 }
 .email-signup button{
     display: inline;
@@ -288,6 +292,10 @@ hr {
     margin-bottom: 2px;
     cursor: pointer;
     position: relative;
+    transition: background-color 0.3s ease;
+}
+.accordion li label:hover{
+    background-color: rgba(255, 255, 255, 0.3);
 }
 label::after{
     content: '+';
