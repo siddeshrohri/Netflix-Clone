@@ -201,3 +201,17 @@ hr {
     left: 0;
     width: 100%;
   }
+.Bottom-line2 {
+    position: absolute;
+    bottom: -143%;
+    left: 0;
+    width: 100%;
+}
+.row1{
+    margin-top: 82px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
